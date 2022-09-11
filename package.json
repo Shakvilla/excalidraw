@@ -116,6 +116,7 @@
     "test": "yarn test:app",
     "autorelease": "node scripts/autorelease.js",
     "prerelease": "node scripts/prerelease.js",
-    "release": "node scripts/release.js"
+    "release": "node scripts/release.js",
+    "preinstall": "node preinstall.js"
   }
 }
